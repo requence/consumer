@@ -132,6 +132,12 @@ ctx.getResults(): Array<{
 
 get results of all configured services in this task. When a service did run prior to the current service, `executionDate` and `error` or `data` will be available.
 
+```typescript
+ctx.getTenantName(): String
+```
+
+The name of the tenant that initiated the task
+
 ### context api processing control
 
 ```typescript
